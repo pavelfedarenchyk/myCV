@@ -1,1 +1,1 @@
-https://PavelFedorenchik.github.io/cv
+https://pavelfedarenchyk.github.io/myCV
