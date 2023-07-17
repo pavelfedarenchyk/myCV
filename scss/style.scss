@@ -1,0 +1,54 @@
+$black: #353635;
+$pink: #f4c6bd;
+$gray: #7d7d79;
+$mobile: 480px;
+
+@import "fio";
+@import "contacts";
+@import "article";
+@import "footer";
+
+html {
+  font-family: "Montserrat", sans-serif;
+  color: $black;
+  font-size: 12px;
+}
+
+.container {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+
+  display: flex;
+
+  @media (max-width: $mobile) {
+    flex-wrap: wrap;
+  }
+}
+
+main {
+  margin-left: 45px;
+  margin-top: 30px;
+
+  @media (max-width: $mobile) {
+    width: 100%;
+  }
+}
+
+aside {
+  width: 250px;
+
+  @media (max-width: $mobile) {
+    width: 100%;
+  }
+}
+
+a {
+  color: $black;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

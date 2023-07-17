@@ -1,0 +1,34 @@
+.fio {
+  text-align: center;
+}
+
+.fio__photo {
+  height: 150px;
+  width: 150px;
+
+  margin: 0 auto;
+
+  background-color: #dad7d8;
+  border-radius: 50%;
+}
+
+.fio__name {
+  margin: 0;
+  margin-top: 20px;
+
+  letter-spacing: 0.2rem;
+  font-weight: normal;
+  text-transform: uppercase;
+
+  &--bold {
+    font-weight: 800;
+  }
+}
+
+.fio__work {
+  margin: 0;
+  margin-top: 10px;
+
+  font-size: 0.9em;
+  font-weight: normal;
+}
